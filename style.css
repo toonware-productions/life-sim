@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.buttons button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #5c67f2;
+  color: white;
+  cursor: pointer;
+}
+
+#auth-message {
+  margin-top: 10px;
+  color: red;
+  font-size: 0.9em;
+}
