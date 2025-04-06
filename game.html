@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Life Simulator - Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Welcome to Life Simulator</h1>
+
+    <div id="user-info">
+      <p><strong>Username:</strong> <span id="username">Loading...</span></p>
+      <p><strong>Gender:</strong> <span id="gender">Loading...</span></p>
+    </div>
+
+    <div class="actions">
+      <button onclick="findJob()">Find a Job</button>
+      <button onclick="findOtherUsers()">Find Other Users</button>
+    </div>
+
+    <p id="game-message"></p>
+  </div>
+
+  <!-- Firebase logic -->
+  <script type="module" src="game.js"></script>
+</body>
+</html>
